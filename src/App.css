@@ -1,0 +1,42 @@
+.girls {
+  background-color: #121212;
+  color: white;
+  border-bottom-left-radius: 25mm;
+}
+.sign {
+  border: 0.2mm solid white;
+  border-top-right-radius: 3.5mm;
+  border-bottom-right-radius: 3.5mm;
+  margin-left: 10px;
+  padding: 14px 15px;
+  font-weight: 700;
+  background: linear-gradient(to right, rgb(18, 35, 227), #d20101);
+}
+
+@media (max-width: 640px) {
+  .girls {
+    padding-bottom: 45px;
+  }
+}
+
+.testimony {
+  background-color: #121212;
+  color: white;
+  border-top-right-radius: 25mm;
+}
+.continue {
+  background-color: #c7c2c2;
+}
+.artica {
+  background: linear-gradient(to right, rgb(37, 53, 227), #ff0505);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 24px;
+}
+.art {
+  background: linear-gradient(to right, rgb(37, 53, 227), #ff0505);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 34px;
+  font-weight: 700;
+}
